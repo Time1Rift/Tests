@@ -12,5 +12,6 @@ public class Bar : MonoBehaviour
     {
         transform.LookAt(new Vector3(transform.position.x, _camera.transform.position.y, _camera.transform.position.z));
         transform.Rotate(_angleRotation);
+        //transform.rotation = _camera.rotation;
     }
 }
